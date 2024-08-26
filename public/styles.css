@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e3e5fc;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;   
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    gap: 1em;
+}
+
+#text-input {
+    height: 25px;
+    width: 200px;
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+}
+
+#check-btn {
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    background-color: #d8db28;
+}
+
+#result {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .header {
+    display: block;
+    font-family: "Roboto";
+    margin-top: -80px;
+  }
